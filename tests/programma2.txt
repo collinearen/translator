@@ -1,0 +1,15 @@
+program
+var
+a : int ;
+b : int ;
+c : bool ;
+begin
+a := 2 ;
+b := 4 ;
+print b ;
+while b <> 0 do
+print b ;
+b := b - a ;
+print c ;
+endwhile
+end.
